@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/richrdkng/github-template/compare/v1.1.1...v1.1.2) (2019-10-11)
+
+
+### Bug Fixes
+
+* **readme:** fix TravisCI badge ([d77bed2](https://github.com/richrdkng/github-template/commit/d77bed249595e2cf56f4564084ac8c9d939aa6e8))
+
 ## [1.1.1](https://github.com/richrdkng/github-template/compare/v1.1.0...v1.1.1) (2019-10-11)
 
 
