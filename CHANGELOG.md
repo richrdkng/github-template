@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/richrdkng/github-template/compare/v1.1.2...v1.1.3) (2019-10-11)
+
+
+### Bug Fixes
+
+* **readme:** fix copy command ([bd19492](https://github.com/richrdkng/github-template/commit/bd19492f85bed1cb24da3f23a6846d85abe4aeae))
+
 ## [1.1.2](https://github.com/richrdkng/github-template/compare/v1.1.1...v1.1.2) (2019-10-11)
 
 
