@@ -12,12 +12,12 @@ Custom `.github` templates for general projects by [@richrdkng](https://github.c
 #### Install locally
 
 ```bash
-$ npm install @richrdkng/github-template
+npm install @richrdkng/github-template
 ```
 #### Copy `.github` directory from `node_modules` into the current directory
 
 ```bash
-$ cp node_modules/@richrdkng/github-template/.github/**/*.* .
+rm -rf .github && cp -r node_modules/@richrdkng/github-template/.github/ .
 ```
 
 ## :beers: Contribution
