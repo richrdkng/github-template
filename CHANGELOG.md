@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/richrdkng/github-template/compare/v1.1.0...v1.1.1) (2019-10-11)
+
+
+### Bug Fixes
+
+* **templates:** remove ignore to allow .github directory ([22f25a1](https://github.com/richrdkng/github-template/commit/22f25a12f1ba9eb73bcc0f1a7206204c3f9a68bb))
+
 # [1.1.0](https://github.com/richrdkng/github-template/compare/v1.0.0...v1.1.0) (2019-10-11)
 
 
