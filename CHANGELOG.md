@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/richrdkng/github-template/compare/v1.0.0...v1.1.0) (2019-10-11)
+
+
+### Features
+
+* **docs:** add initial .github docs ([62e6229](https://github.com/richrdkng/github-template/commit/62e622929ccc05cb15304e01fe3457b6002c874c))
+
 # 1.0.0 (2019-10-11)
 
 
