@@ -1,6 +1,3 @@
-# GitHub templates
-.github
-
 # Coverage directories
 coverage
 .nyc_output
