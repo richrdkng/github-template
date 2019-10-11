@@ -2,7 +2,7 @@
 
 Custom `.github` templates for general projects by [@richrdkng](https://github.com/richrdkng).
 
-## Usage
+## :sunglasses: Usage
 
 - 1.: Install locally:
 
@@ -15,13 +15,13 @@ Custom `.github` templates for general projects by [@richrdkng](https://github.c
   $ cp node_modules/@richrdkng/github-template/.github/**/*.* .
   ```
 
-## Contribution
+## :beers: Contribution
 
 **Any contribution is highly appreciated**. To get going, check out the [**contribution guidelines**][url-contrib-doc].
 
 ***Thank you and have fun!***
 
-## License
+## :copyright: License
 
 [ISC][url-license-doc] @ [Richard King](https://www.richrdkng.com)
 
