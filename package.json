@@ -1,0 +1,32 @@
+{
+  "name": "@richrdkng/github-template",
+  "version": "0.0.0-development",
+  "description": "Custom .github templates for general projects by @richrdkng",
+  "author": "Richard King <richrdkng@gmail.com> (www.richrdkng.com)",
+  "license": "ISC",
+  "homepage": "https://github.com/richrdkng/github-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richrdkng/github-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/richrdkng/github-template/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "github",
+    "template",
+    "richrdkng",
+    "@richrdkng"
+  ],
+  "devDependencies": {
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/git": "^7.0.16",
+    "semantic-release": "^15.13.24"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
+  }
+}

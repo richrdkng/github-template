@@ -1,0 +1,26 @@
+language: node_js
+
+node_js:
+  - lts/*
+
+os:
+  - linux
+
+sudo: false
+
+notifications:
+  email: false
+
+jobs:
+  include:
+    - stage: release
+      script:
+        - echo "skipping tests"
+
+      deploy:
+        skip_cleanup: true
+        provider: script
+        script:
+          - npx semantic-release
+        on:
+          branch: master
