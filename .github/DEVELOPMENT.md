@@ -1,4 +1,4 @@
-# :bees: Development
+# :coffee: Development
 
 ## Have Fun!
 
