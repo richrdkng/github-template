@@ -7,7 +7,7 @@
 
 Custom `.github` templates for general projects by [@richrdkng](https://github.com/richrdkng).
 
-## :sunglasses: Usage
+## :coffee: Usage
 
 #### Install locally
 
