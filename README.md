@@ -1,5 +1,7 @@
 # @richrdkng/github-template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/richrdkng/github-template.svg)](https://greenkeeper.io/)
+
 [![release][badge-npm]][url-npm]
 [![ci][badge-travis]][url-travis]
 [![license][badge-license-isc]][url-license-doc]
