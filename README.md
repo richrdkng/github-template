@@ -40,9 +40,9 @@ rm -rf .github && npx @richrdkng/github-template .
   [badge-npm]:         https://img.shields.io/npm/v/@richrdkng/github-template?color=brightgreen&label=NPM&style=flat-square&logo=npm
   [badge-ci]:          https://img.shields.io/travis/richrdkng/github-template/master?label=Travis%20CI&style=flat-square&logo=travis
   [badge-deps]:        https://img.shields.io/badge/Dependabot-enabled-brightgreen?&style=flat-square&logo=dependabot
-  [badge-code]:        https://img.shields.io/badge/Style-StandardJS-f1d300.svg?style=flat-square&logo=javascript
-  [badge-commit]:      https://img.shields.io/badge/Commit-Commitizen-fe7d37.svg?style=flat-square&logo=git
-  [badge-release]:     https://img.shields.io/badge/Release-semantic--release-e10079.svg?style=flat-square&logo=plex
+  [badge-code]:        https://img.shields.io/badge/style-standard-f1d300.svg?style=flat-square&logo=javascript
+  [badge-commit]:      https://img.shields.io/badge/commit-commitizen-fe7d37.svg?style=flat-square&logo=git
+  [badge-release]:     https://img.shields.io/badge/release-semantic--release-e10079.svg?style=flat-square&logo=plex
   [badge-license-isc]: https://img.shields.io/badge/License-ISC-brightgreen.svg?style=flat-square&logo=github
   [badge-contrib]:     https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square&logo=github
   
