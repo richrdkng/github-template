@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/richrdkng/github-template/compare/v1.4.0...v1.5.0) (2019-10-13)
+
+
+### Features
+
+* **readme:** add more appealing badges ([0ae82e4](https://github.com/richrdkng/github-template/commit/0ae82e442d906d9644b5f426ebc37dcbaf788dfd))
+
 # [1.4.0](https://github.com/richrdkng/github-template/compare/v1.3.1...v1.4.0) (2019-10-13)
 
 
