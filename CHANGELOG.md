@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/richrdkng/github-template/compare/v1.3.0...v1.3.1) (2019-10-13)
+
+
+### Bug Fixes
+
+* **cli:** fix missing dependency ([fd1ec3c](https://github.com/richrdkng/github-template/commit/fd1ec3c6c1ef74b82417fb09f87aff8d287f5807))
+
 # [1.3.0](https://github.com/richrdkng/github-template/compare/v1.2.0...v1.3.0) (2019-10-13)
 
 
