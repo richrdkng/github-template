@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/richrdkng/github-template/compare/v1.1.3...v1.2.0) (2019-10-13)
+
+
+### Features
+
+* **cli:** add initial CLI ([934c75d](https://github.com/richrdkng/github-template/commit/934c75ddfd903238f28e4f9c2ff7deb9322c8b8b))
+
 ## [1.1.3](https://github.com/richrdkng/github-template/compare/v1.1.2...v1.1.3) (2019-10-11)
 
 
