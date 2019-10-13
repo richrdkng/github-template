@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/richrdkng/github-template/compare/v1.5.0...v1.5.1) (2019-10-13)
+
+
+### Bug Fixes
+
+* **readme:** emphasize description better ([44eefb2](https://github.com/richrdkng/github-template/commit/44eefb248048011387f036eafa57f7238b022d2d))
+
 # [1.5.0](https://github.com/richrdkng/github-template/compare/v1.4.0...v1.5.0) (2019-10-13)
 
 
