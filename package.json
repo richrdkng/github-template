@@ -4,6 +4,7 @@
   "description": "Custom .github templates for general projects by @richrdkng.",
   "author": "Richard King <richrdkng@gmail.com> (www.richrdkng.com)",
   "license": "ISC",
+  "bin": "./bin/cli.js",
   "homepage": "https://github.com/richrdkng/github-template#readme",
   "repository": {
     "type": "git",
@@ -25,6 +26,8 @@
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.4",
     "@semantic-release/git": "^7.0.16",
-    "semantic-release": "^15.13.24"
+    "semantic-release": "^15.13.24",
+    "snazzy": "^8.0.0",
+    "standard": "^14.3.1"
   }
 }
