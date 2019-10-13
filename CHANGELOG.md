@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/richrdkng/github-template/compare/v1.3.1...v1.4.0) (2019-10-13)
+
+
+### Features
+
+* **readme:** simplify usage and format header ([9de3815](https://github.com/richrdkng/github-template/commit/9de3815e852b2544103398e3fda4ee68fefcc41c))
+
 ## [1.3.1](https://github.com/richrdkng/github-template/compare/v1.3.0...v1.3.1) (2019-10-13)
 
 
