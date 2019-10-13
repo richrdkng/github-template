@@ -9,14 +9,13 @@ assert(dir === '.', `Current directory must be specified as ".", got: "${dir}"`)
 
 // prepare paths ------------------------------------------------------------------------------------------------------*
 const path = require('path')
-
-const pkg = require('../package.json')
 const cwd = process.cwd()
 const src = path.join(__dirname, '../.github')
 const dest = path.join(cwd, dir, '/.github')
 
 // copy files ---------------------------------------------------------------------------------------------------------*
 const fs = require('fs-extra')
+const pkg = require('../package.json')
 
 console.log(`${pkg.name} v${pkg.version} - copy templates:`)
 console.log(`from ${src}`)
