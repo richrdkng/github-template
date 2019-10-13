@@ -6,19 +6,14 @@
 [![license][badge-license-isc]][url-license-doc]
 [![prs][badge-contrib]][url-contrib-doc]
 
-Custom `.github` templates for general projects by [@richrdkng](https://github.com/richrdkng).
+Custom **`.github`** templates for general projects by [**@richrdkng**](https://github.com/richrdkng).
 
 ## :coffee: Usage
 
-#### Install locally
+Just simply **copy** and **paste** the following into the terminal and **execute** it in you package's **current directory**, no installation required :sunglasses::
 
 ```bash
-npm install @richrdkng/github-template
-```
-#### Copy `.github` directory from `node_modules` into the current directory
-
-```bash
-rm -rf .github && cp -r node_modules/@richrdkng/github-template/.github/ .
+rm -rf .github && npx @richrdkng/github-template .
 ```
 
 ## :beers: Contribution
