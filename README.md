@@ -26,7 +26,7 @@ rm -rf .github && npx @richrdkng/github-template .
 
 ## :beers: Contribution
 
-**Any contribution is highly appreciated**. To get going, check out the [**contribution guidelines**][url-contrib-doc].
+**Any contribution is ***highly*** appreciated**. To get going, check out the [**contribution guidelines**][url-contrib-doc].
 
 ***Thank you and have fun!***
 
