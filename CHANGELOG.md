@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/richrdkng/github-template/compare/v1.2.0...v1.3.0) (2019-10-13)
+
+
+### Features
+
+* **cli:** add working CLI - copy templates from src to dest ([1d19297](https://github.com/richrdkng/github-template/commit/1d19297b7ab35104a121684394e0215874a66747))
+
 # [1.2.0](https://github.com/richrdkng/github-template/compare/v1.1.3...v1.2.0) (2019-10-13)
 
 
