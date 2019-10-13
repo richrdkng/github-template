@@ -10,7 +10,11 @@
 [![Commit Style][badge-commit]][url-commit]
 [![Release Workflow][badge-release]][url-release]
 
+---
+
 Custom **`.github`** templates for general projects by [**@richrdkng**](https://github.com/richrdkng).
+
+---
 
 ## :coffee: Usage
 
