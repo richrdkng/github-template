@@ -5,11 +5,11 @@
 Before you doing so, **please read the following simple steps** on how to contribute. 
 This will **make life easier and help to avoid wasting time** on things, which are not requested.
 
-## Run through the Development Guide
+## :computer:	Development
 
 Check out the short, but concise [**development guide**][url-dev-doc] for tools, structure, and commands.  
 
-## Discuss the changes before doing them
+## :bulb:	Discuss The Changes First
 
  - First of all, **open an issue in the repository** [**using the bug tracker**][url-bugs] 
    **and describe the contribution** you would like to make, the bug you found or any other ideas you have.
@@ -21,7 +21,7 @@ Check out the short, but concise [**development guide**][url-dev-doc] for tools,
  - It is recommended to **wait for feedback before continuing** to the next steps. However, 
    if the issue is clear *(e.g.: a typo)* and the fix is simple, you can continue and fix it.
 
-## Fixing issues
+## :hammer_and_wrench: Fixing Issues
 
  - Fork the project in your account and **create a branch with your fix** using 
    the naming style: **some-awesome-feature** or **some-issue-fix**.
@@ -47,19 +47,19 @@ Check out the short, but concise [**development guide**][url-dev-doc] for tools,
    }   
    ```
  
-## Creating a pull request
+## :checkered_flag: Create A Pull Request
 
  - Open a pull request and **reference the initial issue** [**in the pull request message**][url-pull-req-help] 
    *(e.g.: fixes #42)*. Write a **good description and title**, so everybody will know what is fixed/improved.
 
  - **If it makes sense**, add screenshots, gifs, etc., so it will be easier to see what is going on.
 
-## Wait for feedback
+## :thumbsup: Wait For Feedback
 
 **Your contributions will be reviewed before accepting them.**
 You may get feedback about what should be fixed/changed in your modified code.
 
-## Thank You!
+## :heart: Thank You!
 
   <!--- References ============================================================================ -->
 
