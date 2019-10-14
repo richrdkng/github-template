@@ -26,7 +26,7 @@ rm -rf .github && npx @richrdkng/github-template .
 
 ## :beers: Contribution
 
-**Any contribution is ***highly*** appreciated**. To get going, check out the [**contribution guidelines**][url-contrib-doc].
+**Any contribution is ***highly appreciated*****. To get going, check out the [**contribution guidelines**][url-contrib-doc].
 
 ***Thank you and have fun!***
 
@@ -42,7 +42,7 @@ rm -rf .github && npx @richrdkng/github-template .
   [badge-deps]:        https://img.shields.io/badge/Dependabot-enabled-brightgreen?&style=flat-square&logo=dependabot
   [badge-code]:        https://img.shields.io/badge/style-standard-f1d300.svg?style=flat-square&logo=javascript
   [badge-commit]:      https://img.shields.io/badge/commit-commitizen-fe7d37.svg?style=flat-square&logo=git
-  [badge-release]:     https://img.shields.io/badge/release-semantic--release-e10079.svg?style=flat-square&logo=plex
+  [badge-release]:     https://img.shields.io/badge/&#127761;%20release-semantic--release-e10079.svg?style=flat-square
   [badge-license-isc]: https://img.shields.io/badge/License-ISC-brightgreen.svg?style=flat-square&logo=github
   [badge-contrib]:     https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square&logo=github
   
