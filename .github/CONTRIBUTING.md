@@ -59,7 +59,7 @@ Check out the short, but concise [**development guide**][url-dev-doc] for tools,
 **Your contributions will be reviewed before accepting them.**
 You may get feedback about what should be fixed/changed in your modified code.
 
-## :heart: Thank You!
+## :two_hearts: Thank You!
 
   <!--- References ============================================================================ -->
 
