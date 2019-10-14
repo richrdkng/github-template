@@ -41,7 +41,7 @@ Check out the short, but concise [**development guide**][url-dev-doc] for tools,
    {
       ...
       "contributors": [
-         "Your Name <your.mail@email.com> (http://your.website)"
+         "Your Name <yourmail@email.com> (http://your.website)"
       ],
       ...
    }   
