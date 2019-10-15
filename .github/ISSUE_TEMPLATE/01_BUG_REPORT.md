@@ -1,8 +1,8 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+name: :beetle: Bug Report
+about: Report a bug.
+title: 'bug(scope): short, imperative, tense description'
+labels: 'bug'
 assignees: ''
 
 ---
