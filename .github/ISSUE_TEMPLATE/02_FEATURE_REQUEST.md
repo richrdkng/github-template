@@ -1,5 +1,5 @@
 ---
-name: Feature Request
+name: "\U0001F680 Feature Request"
 about: Suggest a feature.
 title: 'feat(scope): short, imperative, tense description'
 labels: 'enhancement'

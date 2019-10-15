@@ -1,5 +1,5 @@
 ---
-name: :beetle: Bug Report
+name: "\U0001F41E Bug Report"
 about: Report a bug.
 title: 'bug(scope): short, imperative, tense description'
 labels: 'bug'
