@@ -1,5 +1,5 @@
 ---
-name: "\U0001F9F9 Chore"
+name: "\U0001f9f9 Chore"
 about: Changes to the build process or auxiliary tools and libraries such as documentation generation.
 title: 'chore(scope?): short, imperative, tense description of the change'
 labels: ''
