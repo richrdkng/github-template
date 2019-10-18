@@ -1,5 +1,5 @@
 ---
-name: "✂️ Refactor"
+name: "\u2702\ufe0f Refactor"
 about: A code change that neither fixes a bug nor adds a feature.
 title: 'refactor(scope?): short, imperative, tense description of the change'
 labels: ''
