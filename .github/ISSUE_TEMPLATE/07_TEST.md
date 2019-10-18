@@ -1,5 +1,5 @@
 ---
-name: "🔬 Test"
+name: "\U0001f52c Test"
 about: Adding missing or correcting existing tests.
 title: 'test(scope?): short, imperative, tense description of the change'
 labels: ''
