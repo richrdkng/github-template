@@ -1,38 +1,54 @@
 ---
 name: "\U0001F41E Bug Report"
 about: 'Report a bug.'
-title: 'bug(scope): short, imperative, tense description'
+title: 'bug(scope?): short, imperative, tense description of the change'
 labels: 'bug'
 assignees: ''
-
 ---
+<!-- **********************************************************************************************
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+Hey! 🍻
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+Please search open and closed issues before submitting a new one.
+Existing issues often contain workarounds, resolutions, or progress updates.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+*********************************************************************************************** -->
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+## 🐞 Description
 
-**Desktop (please complete the following information):**
+**Clear** and **concise description** of what the **bug** is.
+
+## 💡 Expected Behavior
+
+**Clear** and **concise description** of what you **expected** to happen.
+
+## 🔬 Minimal Reproduction
+
+**Steps** to reproduce the behavior:
+
+1. ...
+2. ...
+3. ...
+
+## 🔥 Error or Exception
+
+## 🖼️ Screenshots
+
+If **applicable/sensible**, add **screenshots or captures** to help explain the problem.
+
+## 🌍 Environment
+
+### Desktop (please complete the following information):
  - OS: [e.g. iOS]
  - Browser [e.g. chrome, safari]
  - Version [e.g. 22]
 
-**Smartphone (please complete the following information):**
+### Smartphone (please complete the following information):
  - Device: [e.g. iPhone6]
  - OS: [e.g. iOS8.1]
  - Browser [e.g. stock browser, safari]
  - Version [e.g. 22]
 
-**Additional context**
-Add any other context about the problem here.
+## ❓ Anything Else
+
+Any **other relevant** information/context about the problem.
