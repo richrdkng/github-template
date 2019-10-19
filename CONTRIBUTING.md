@@ -1,5 +1,7 @@
 # :beers: Contributing
 
+***Discuss, Fork, Develop, Commit, Benefit***
+
 **Thank you for considering contributing to this project!**
 
 Before you doing so, **please read the following simple steps** on how to contribute. 
@@ -7,43 +9,56 @@ This will **make life easier and help to avoid wasting time** on things, which a
 
 ## :computer:	Development
 
-Check out the short, but concise [**development guide**][url-dev-doc] for tools, structure, and commands.  
+ - read through the project's **`README.md`** file, especially the
+
+ - structure:
+   
+   - a
+
+ - check out the **sources**, **structure**, and **coding style** in the **`bin`** / **`lib`** / **`src`** directories
+
+ - tools
+ 
+ - check out the **scripts**, **tasks**, and **configs** in the **`script`** directory.
+
+ - comments and comment style
+
+ - structure
+
+ - main commands / scripts
+
+ - code style / commit style / semantic release
 
 ## :bulb:	Discuss The Changes First
 
- - First of all, **open an issue in the repository** [**using the bug tracker**][url-bugs] 
+ - **Open an issue** [**using the bug tracker**][url-bugs] 
    **and describe the contribution** you would like to make, the bug you found or any other ideas you have.
    This will help to get you started on the right foot.
    
  - **If it makes sense**, add the platform and software information *(e.g.: operating system, Node.js version etc.)* 
    and/or screenshots so we can see what you are seeing.
  
- - It is recommended to **wait for feedback before continuing** to the next steps. However, 
-   if the issue is clear *(e.g.: a typo)* and the fix is simple, you can continue and fix it.
+ - **Wait for feedback before continuing** to the next steps. ***However***, if the issue is clear *(e.g.: a typo)* and the fix is simple, you can continue and fix it.
 
 ## :hammer_and_wrench: Fixing Issues
 
- - Fork the project in your account and **create a branch with your fix** using 
+ - Fork the project and **create a branch with your fix** using 
    the naming style: **some-awesome-feature** or **some-issue-fix**.
 
  - Commit your changes in that branch. Make sure you follow [**StandardJS**][url-standard] and the **tests** and 
    the **precommit hook** ran without errors:
    
    ```bash
-   # Run all tests with style and coverage checks
-   npm run test
+   npm test
    ```
-   
- - In **package.json**, add yourself to the [**array of contributors**][url-npm-contrib-doc]
-   *(if the array doesn't exist, create it)*:
+
+ - In **`package.json`**, add yourself to the [**array of contributors**][url-npm-contrib-doc]:
  
    ```json   
    {
-      ...
       "contributors": [
          "Your Name <yourmail@email.com> (http://your.website)"
       ],
-      ...
    }   
    ```
  
@@ -56,8 +71,8 @@ Check out the short, but concise [**development guide**][url-dev-doc] for tools,
 
 ## :thumbsup: Wait For Feedback
 
-**Your contributions will be reviewed before accepting them.**
-You may get feedback about what should be fixed/changed in your modified code.
+**Your contribution will be reviewed before accepted.**
+You *may* get feedback about what should be fixed/changed in your contribution.
 
 ## :two_hearts: Thank You!
 
