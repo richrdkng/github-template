@@ -16,15 +16,33 @@ Existing issues often contain workarounds, resolutions, or progress updates.
 
 ## 🐞 Description
 
-**Clear** and **concise description** of what the **bug** is.
+**Clear** and **concise** description of **what the bug** is.
 
 ## 💡 Expected Behavior
 
-**Clear** and **concise description** of what you **expected** to happen.
+**Clear** and **concise** description of **what you expected** to happen.
+
+## ↩️ Is This a Regression?
+
+**Yes** / **No**.
+
+If yes, the previous version in which **this bug was not present** was: ...
 
 ## 🔬 Minimal Reproduction
 
-**Steps** to reproduce the behavior:
+<!--
+Please include: commands run (including args), packages added, related code changes, etc.
+
+If the steps are not enough for reproduction of your issue, please create a minimal GitHub
+repository with the minimum possible code to show the problem as the reproduction of the issue. 
+
+Share the link to the repo below along with step-by-step instructions
+to reproduce the problem, as well as expected and actual behavior.
+
+Issues that don't have enough info and can't be reproduced will be closed.
+-->
+
+**Steps to reproduce** the behavior:
 
 1. ...
 2. ...
@@ -32,23 +50,24 @@ Existing issues often contain workarounds, resolutions, or progress updates.
 
 ## 🔥 Error or Exception
 
+If there's an error or an exception, please **share it below**:
+
+```
+...
+```
+
+## 🌍 Environment
+
+Describe **your relevant** environment (device, OS, browser, Node.js, etc.):
+
+```
+...
+```
+
 ## 🖼️ Screenshots
 
 If **applicable/sensible**, add **screenshots or captures** to help explain the problem.
 
-## 🌍 Environment
+## 💬 Anything Else?
 
-### Desktop (please complete the following information):
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-### Smartphone (please complete the following information):
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-## ❓ Anything Else
-
-Any **other relevant** information/context about the problem.
+Any **other relevant information/context** about the problem.
