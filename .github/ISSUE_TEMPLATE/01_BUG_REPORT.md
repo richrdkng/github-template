@@ -1,17 +1,15 @@
 ---
 name: "\U0001F41E Bug Report"
 about: 'Report a bug.'
-title: 'bug(scope?): short, imperative, tense description of the change'
+title: 'bug(scope?): SHORT, IMPERATIVE, tense description of the change'
 labels: 'bug'
 assignees: ''
 ---
 <!-- **********************************************************************************************
-
 Hey! 🍻
 
 Please search open and closed issues before submitting a new one.
 Existing issues often contain workarounds, resolutions, or progress updates.
-
 *********************************************************************************************** -->
 
 ## 🐞 Description
@@ -29,7 +27,6 @@ Existing issues often contain workarounds, resolutions, or progress updates.
 If yes, the previous version in which **this bug was not present** was: ...
 
 ## 🔬 Minimal Reproduction
-
 <!--
 Please include: commands run (including args), packages added, related code changes, etc.
 
@@ -58,7 +55,7 @@ If there's an error or an exception, please **share it below**:
 
 ## 🌍 Environment
 
-Describe **your relevant** environment (device, OS, browser, Node.js, etc.):
+Describe **your relevant environment** (device, OS, browser, Node.js, packages, etc.):
 
 ```
 ...

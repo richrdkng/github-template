@@ -1,7 +1,7 @@
 ---
 name: "\U0001f52c Test"
 about: Adding missing or correcting existing tests.
-title: 'test(scope?): short, imperative, tense description of the change'
+title: 'test(scope?): SHORT, IMPERATIVE, tense description of the change'
 labels: 'enhancement'
 assignees: ''
 

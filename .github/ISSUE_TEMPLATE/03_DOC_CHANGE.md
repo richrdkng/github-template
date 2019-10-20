@@ -1,7 +1,7 @@
 ---
 name: "\U0001f4da Documentation"
 about: Documentation only fixes, edits, and additional changes.
-title: 'docs(scope?): short, imperative, tense description of the change'
+title: 'docs(scope?): SHORT, IMPERATIVE, tense description of the change'
 labels: 'documentation'
 assignees: ''
 
