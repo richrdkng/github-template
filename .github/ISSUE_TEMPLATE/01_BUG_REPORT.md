@@ -12,21 +12,25 @@ Please search open and closed issues before submitting a new one.
 Existing issues often contain workarounds, resolutions, or progress updates.
 *********************************************************************************************** -->
 
-## 🐞 Description
+🐞 Description
+---------------------------------------------------------------------------------------------------
 
 **Clear** and **concise** description of **what the bug** is.
 
-## 💡 Expected Behavior
+💡 Expected Behavior
+---------------------------------------------------------------------------------------------------
 
 **Clear** and **concise** description of **what you expected** to happen.
 
-## ↩️ Is This a Regression?
+↩️ Is This a Regression?
+---------------------------------------------------------------------------------------------------
 
 **Yes** / **No**.
 
 If yes, the previous version in which **this bug was not present** was: ...
 
-## 🔬 Minimal Reproduction
+🔬 Minimal Reproduction
+---------------------------------------------------------------------------------------------------
 <!--
 Please include: commands run (including args), packages added, related code changes, etc.
 
@@ -45,7 +49,8 @@ Issues that don't have enough info and can't be reproduced will be closed.
 2. ...
 3. ...
 
-## 🔥 Error or Exception
+🔥 Error or Exception
+---------------------------------------------------------------------------------------------------
 
 If there's an error or an exception, please **share it below**:
 
@@ -53,7 +58,8 @@ If there's an error or an exception, please **share it below**:
 ...
 ```
 
-## 🌍 Environment
+🌍 Environment
+---------------------------------------------------------------------------------------------------
 
 Describe **your relevant environment** (device, OS, browser, Node.js, packages, etc.):
 
@@ -61,10 +67,12 @@ Describe **your relevant environment** (device, OS, browser, Node.js, packages, 
 ...
 ```
 
-## 🖼️ Screenshots
+🖼️ Screenshots
+---------------------------------------------------------------------------------------------------
 
 If **applicable/sensible**, add **screenshots or captures** to help explain the problem.
 
-## 💬 Anything Else?
+💬 Anything Else?
+---------------------------------------------------------------------------------------------------
 
 Any **other relevant information/context** about the problem.

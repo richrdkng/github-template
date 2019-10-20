@@ -13,23 +13,28 @@ Existing features requests may present your particular feature request or simila
 to contribute to that, thus simplify and make the feature request more clear.
 *********************************************************************************************** -->
 
-## 🚀 Description
+🚀 Description
+---------------------------------------------------------------------------------------------------
 
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-## 💡 Solution
+💡 Solution
+---------------------------------------------------------------------------------------------------
 
 **Describe the solution you'd like**
 A clear and concise description of what you want to happen.
 
-## 🔖 Related Problem
+🔖 Related Problem
+---------------------------------------------------------------------------------------------------
 
-## 🔀 Considered Alternatives
+🔀 Considered Alternatives
+---------------------------------------------------------------------------------------------------
 
 **Describe alternatives you've considered**
 A clear and concise description of any alternative solutions or features you've considered.
 
-## 💬 Additional Context
+💬 Additional Context
+---------------------------------------------------------------------------------------------------
 
 Any **other relevant information, context, or screenshots** about the feature request.
