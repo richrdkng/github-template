@@ -15,12 +15,12 @@ Existing issues often contain workarounds, resolutions, or progress updates.
 🐞 Description
 ---------------------------------------------------------------------------------------------------
 
-**Clear** and **concise** description of **what the bug** is.
+**Clear and concise** description of **what the bug** is.
 
 💡 Expected Behavior
 ---------------------------------------------------------------------------------------------------
 
-**Clear** and **concise** description of **what you expected** to happen.
+Clear description of **what you expected** to happen.
 
 ↩️ Is This a Regression?
 ---------------------------------------------------------------------------------------------------
