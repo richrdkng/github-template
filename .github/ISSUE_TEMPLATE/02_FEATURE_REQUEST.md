@@ -16,23 +16,17 @@ to contribute to that, thus simplify and make the feature request more clear.
 🚀 Description
 ---------------------------------------------------------------------------------------------------
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Clear and concise** description of **the feature you want**.
 
 💡 Solution
 ---------------------------------------------------------------------------------------------------
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
-
-🔖 Related Problem
----------------------------------------------------------------------------------------------------
+Clear description of the **solution you offer**.
 
 🔀 Considered Alternatives
 ---------------------------------------------------------------------------------------------------
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+Clear description of any **alternative solutions or features** you've considered.
 
 💬 Additional Context
 ---------------------------------------------------------------------------------------------------
