@@ -4,17 +4,26 @@ about: Adding missing or correcting existing tests.
 title: 'test(scope?): SHORT, IMPERATIVE, tense description of the change'
 labels: 'enhancement'
 assignees: ''
-
 ---
+<!-- **********************************************************************************************
+Hey! 🍻
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+Please search open and closed test-related change requests before submitting a new test-related change request.
+Existing test-related change requests may present your particular change or similar enough
+to contribute to that, thus simplify and make the test-related change request more clear.
+*********************************************************************************************** -->
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+🚀 Description
+---------------------------------------------------------------------------------------------------
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Clear and concise** description of **the test-related change you want**.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+💡 Solution
+---------------------------------------------------------------------------------------------------
+
+Clear description of the **test-related change you offer**.
+
+💬 Additional Context
+---------------------------------------------------------------------------------------------------
+
+Any **other relevant/sensible information, context, alternative solutions, or screenshots** regarding the test-related change.

@@ -4,17 +4,26 @@ about: A code change that neither fixes a bug nor adds a feature.
 title: 'refactor(scope?): SHORT, IMPERATIVE, tense description of the change'
 labels: 'enhancement'
 assignees: ''
-
 ---
+<!-- **********************************************************************************************
+Hey! 🍻
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+Please search open and closed refactor requests before submitting a new refactor request.
+Existing refactor requests may present your particular change or similar enough
+to contribute to that, thus simplify and make the refactor request more clear.
+*********************************************************************************************** -->
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+🚀 Description
+---------------------------------------------------------------------------------------------------
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Clear and concise** description of **the refactor you want**.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+💡 Solution
+---------------------------------------------------------------------------------------------------
+
+Clear description of the **refactor you offer**.
+
+💬 Additional Context
+---------------------------------------------------------------------------------------------------
+
+Any **other relevant/sensible information, context, alternative solutions, or screenshots** regarding the refactor.
