@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/richrdkng/github-template/compare/v1.5.1...v1.6.0) (2019-10-25)
+
+
+### Features
+
+* **templates:** add build and ci template ([e75dbf0](https://github.com/richrdkng/github-template/commit/e75dbf0f2d98792027c016b1905251a8021ba31c))
+
 ## [1.5.1](https://github.com/richrdkng/github-template/compare/v1.5.0...v1.5.1) (2019-10-13)
 
 
