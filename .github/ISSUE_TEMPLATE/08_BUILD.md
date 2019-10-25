@@ -1,5 +1,5 @@
 ---
-name: "\U0001F6E0 Build"
+name: "\U0001F9F1 Build"
 about: Build.
 title: 'build(scope?): SHORT, IMPERATIVE, tense description of the change'
 labels: 'enhancement'
