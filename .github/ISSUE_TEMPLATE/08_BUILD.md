@@ -1,6 +1,6 @@
 ---
 name: "\U0001F6E0 Build"
-about: Build.
+about: Changes that affect the build system or external dependencies (npm, gulp, webpack, etc).
 title: 'build(scope?): SHORT, IMPERATIVE, tense description of the change'
 labels: 'enhancement'
 assignees: ''

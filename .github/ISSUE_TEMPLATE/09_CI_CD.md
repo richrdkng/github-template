@@ -1,6 +1,6 @@
 ---
 name: "\U0001F9F1 CI/CD"
-about: CI/CD.
+about: Changes to the CI/CD configuration files and scripts (TravisCI, CircleCI, BrowserStack, SauceLabs, etc).
 title: 'ci(scope?): SHORT, IMPERATIVE, tense description of the change'
 labels: 'enhancement'
 assignees: ''

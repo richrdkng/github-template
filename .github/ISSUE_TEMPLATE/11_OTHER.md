@@ -1,6 +1,6 @@
 ---
 name: "\u2753 Other Request, Idea, or Issue"
-about: Suggest other improvement, idea, or issue.
+about: Suggest other improvement, idea, or issue that doesn't fit into the categories above.
 title: 'other(scope?): SHORT, IMPERATIVE, tense description of the issue'
 labels: 'enhancement'
 assignees: ''

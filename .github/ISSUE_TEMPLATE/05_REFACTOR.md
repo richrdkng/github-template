@@ -1,6 +1,6 @@
 ---
 name: "\u2702\ufe0f Refactor"
-about: A code change that neither fixes a bug nor adds a feature (restructure code, files, etc.).
+about: A code change (restructure code, files, hierarchies, etc) that neither fixes a bug nor adds a feature.
 title: 'refactor(scope?): SHORT, IMPERATIVE, tense description of the change'
 labels: 'enhancement'
 assignees: ''
