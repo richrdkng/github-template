@@ -1,30 +1,31 @@
 # :beers: Contributing
 
-***Discuss, Fork, Develop, Commit, Benefit***
-
 **Thank you for considering contributing to this project!**
 
-Before you doing so, **please read the following simple steps** on how to contribute. 
+Before you doing so, **please read the following simple steps** on how to contribute.
+
 This will **make life easier and help to avoid wasting time** on things, which are not requested.
 
-## :computer:	Development
+## :computer:	First Steps
 
- - read through the project's **`README.md`** file, especially the
+**Get familiar with the project first** via checking out the:
 
- - structure:
-   
-   - a
+ - **`README.md`**, especially the **Usage** and **API** sections *(if present)*
+ 
+ - **`package.json`** for **NPM scripts**, additional **configs**, and **dependencies**
+ 
+ - **`bin`** / **`lib`** / **`src`** directories for **sources**, **structure**, and **coding style**
 
- - check out the **sources**, **structure**, and **coding style** in the **`bin`** / **`lib`** / **`src`** directories
+ - **`script`** directory and the **project's `root`** for **scripts**, **tasks**, and **configs**
+
+ - **`test`** directory for **tests**, the **test style**, and the **test process**
 
  - tools
- 
- - check out the **scripts**, **tasks**, and **configs** in the **`script`** directory.
 
  - comments and comment style
 
- - structure
-
+ - structure:
+   
  - main commands / scripts
 
  - code style / commit style / semantic release
