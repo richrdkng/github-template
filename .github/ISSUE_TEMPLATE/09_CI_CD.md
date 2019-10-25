@@ -1,6 +1,6 @@
 ---
 name: "\U0001F3D7 CI/CD"
-about: .
+about: CI/CD.
 title: 'ci(scope?): SHORT, IMPERATIVE, tense description of the change'
 labels: 'enhancement'
 assignees: ''
