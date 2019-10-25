@@ -1,7 +1,7 @@
 ---
-name: "\U0001f52c Test"
-about: Adding missing tests or extending/correcting existing tests.
-title: 'test(scope?): SHORT, IMPERATIVE, tense description of the change'
+name: "\U0001F3D7 CI/CD"
+about: .
+title: 'ci(scope?): SHORT, IMPERATIVE, tense description of the change'
 labels: 'enhancement'
 assignees: ''
 ---
