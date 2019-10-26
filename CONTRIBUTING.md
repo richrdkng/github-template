@@ -6,29 +6,25 @@ Before you doing so, **please read the following simple steps** on how to contri
 
 This will **make life easier and help to avoid wasting time** on things, which are not requested.
 
-## :computer:	First Steps
+## :open_file_folder:	First Steps
 
-**Get familiar with the project first** via checking out the:
+**Get familiar with the project** itself first via checking out the:
 
  - **`README.md`**, especially the **Usage** and **API** sections *(if present)*
  
  - **`package.json`** for **NPM scripts**, additional **configs**, and **dependencies**
  
- - **`bin`** / **`lib`** / **`src`** directories for **sources**, **structure**, and **coding style**
+ - **`src`** / **`lib`** / **`bin`** directories for **sources**, **structure**, and **naming conventions**
 
- - **`script`** directory and the **project's `root`** for **scripts**, **tasks**, and **configs**
+ - **`script`** directory and the **project's `root`** for **tools**, **scripts**, **tasks**, and **configs**
 
  - **`test`** directory for **tests**, the **test style**, and the **test process**
 
- - tools
+ - **`*.js`** / **`*.mjs`** / **`*.jsx`** / **`*.ts`** files for **coding style** and **commenting style**
+ 
+ - [**commits**](https://github.com/richrdkng/github-template/commits/master) for a taste of semantic release
 
- - comments and comment style
-
- - structure:
-   
- - main commands / scripts
-
- - code style / commit style / semantic release
+ - [**issues**](https://github.com/richrdkng/github-template/issues) for issue title conventions commitizen
 
 ## :bulb:	Discuss The Changes First
 
