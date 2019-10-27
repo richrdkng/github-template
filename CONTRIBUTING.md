@@ -6,7 +6,7 @@ Before you doing so, **please read the following simple steps** on how to contri
 
 This will **make life easier and help to avoid wasting time** on things, which are not requested.
 
-## 📂	Get Familiar With The Project
+## 📑	Get Familiar With The Project
 
 Check out **in detail** the:
 
@@ -73,7 +73,7 @@ You *may* get feedback about what should be fixed/changed in your contribution.
 
 ## 💕 Thank You!
 
-*...for your time and contribution!* ❤️
+*...for your* ***time and contribution*** ❤️
 
   <!--- References ============================================================================ -->
 
