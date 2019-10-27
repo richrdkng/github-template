@@ -1,4 +1,4 @@
-# :beers: Contributing
+# 🍻 Contributing
 
 **Thank you for considering contributing to this project!**
 
@@ -6,11 +6,11 @@ Before you doing so, **please read the following simple steps** on how to contri
 
 This will **make life easier and help to avoid wasting time** on things, which are not requested.
 
-## :open_file_folder:	First Steps
+## 📂	Get Familiar With The Project
 
-**Get familiar with the project** itself first via checking out the:
+Check out **in detail** the:
 
- - **`README.md`**, especially the **Usage** and **API** sections *(if present)*
+ - **`README.md`**, especially the **Usage** / **CLI** / **API** sections
  
  - **`package.json`** for **NPM scripts**, additional **configs**, and **dependencies**
  
@@ -26,7 +26,7 @@ This will **make life easier and help to avoid wasting time** on things, which a
 
  - [**issues**](https://github.com/richrdkng/github-template/issues) for issue title conventions commitizen
 
-## :bulb:	Discuss The Changes First
+## 💡	Discuss The Changes First
 
  - **Open an issue** [**using the bug tracker**][url-bugs] 
    **and describe the contribution** you would like to make, the bug you found or any other ideas you have.
@@ -37,7 +37,7 @@ This will **make life easier and help to avoid wasting time** on things, which a
  
  - **Wait for feedback before continuing** to the next steps. ***However***, if the issue is clear *(e.g.: a typo)* and the fix is simple, you can continue and fix it.
 
-## :hammer_and_wrench: Fixing Issues
+## 🛠️ Fixing Issues
 
  - Fork the project and **create a branch with your fix** using 
    the naming style: **some-awesome-feature** or **some-issue-fix**.
@@ -59,19 +59,21 @@ This will **make life easier and help to avoid wasting time** on things, which a
    }   
    ```
  
-## :checkered_flag: Create A Pull Request
+## 🏁 Create A Pull Request
 
  - Open a pull request and **reference the initial issue** [**in the pull request message**][url-pull-req-help] 
    *(e.g.: fixes #42)*. Write a **good description and title**, so everybody will know what is fixed/improved.
 
  - **If it makes sense**, add screenshots, gifs, etc., so it will be easier to see what is going on.
 
-## :thumbsup: Wait For Feedback
+## 👍 Wait For Feedback
 
 **Your contribution will be reviewed before accepted.**
 You *may* get feedback about what should be fixed/changed in your contribution.
 
-## :two_hearts: Thank You!
+## 💕 Thank You!
+
+*...for your time and contribution!* ❤️
 
   <!--- References ============================================================================ -->
 
