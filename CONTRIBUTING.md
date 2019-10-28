@@ -20,13 +20,11 @@ Check out **in detail** the:
 
  - **`test`** directory for **tests**, the **test style**, and the **test process**
 
- - **`*.js`** / **`*.mjs`** / **`*.jsx`** / **`*.ts`** files for **coding style** and **commenting style**
+ - **`*.js`** / **`*.mjs`** / **`*.jsx`** / **`*.ts`** files for **coding style**, **commenting style**, and get familiar with [![Code Style][badge-code]][url-code]
+
+  - [**issues**](https://github.com/richrdkng/github-template/issues) and [**commits**](https://github.com/richrdkng/github-template/commits/master) for **commit styles**, the **release workflow**, and get familiar with [![Commit Style][badge-commit]][url-commit] [![Release Workflow][badge-release]][url-release]
  
- - [**commits**](https://github.com/richrdkng/github-template/commits/master) for a taste of semantic release
-
- - [**issues**](https://github.com/richrdkng/github-template/issues) for issue title conventions commitizen
-
-## 💡	Discuss The Changes First
+## 💡	Discuss The Change
 
  - **Open an issue** [**using the bug tracker**][url-bugs] 
    **and describe the contribution** you would like to make, the bug you found or any other ideas you have.
@@ -78,8 +76,15 @@ You *may* get feedback about what should be fixed/changed in your contribution.
   <!--- References ============================================================================ -->
 
   <!--- Badges -->
+  [badge-code]:    https://img.shields.io/badge/style-standard-f1d300.svg?style=flat-square&logo=javascript
+  [badge-commit]:  https://img.shields.io/badge/commit-commitizen-fe7d37.svg?style=flat-square&logo=git
+  [badge-release]: https://img.shields.io/badge/&#11091;%20release-semantic--release-e10079.svg?style=flat-square
 
   <!--- URLs -->
+  [url-code]:    https://standardjs.com
+  [url-commit]:  https://commitizen.github.io/cz-cli
+  [url-release]: https://semantic-release.gitbook.io/semantic-release
+
   [url-bugs]:            https://github.com/richrdkng/github-template/issues
   [url-standard]:        https://standardjs.com
   [url-npm-contrib-doc]: https://docs.npmjs.com/files/package.json#people-fields-author-contributors
