@@ -79,9 +79,13 @@ Your **contribution will be reviewed** before accepted. ***You may get feedback*
 
 ---
 
-## 💕 Thank You!
+<h1 align="center">
+  💕 Thank You!
+</h1>
 
-*...for your* ***time and contribution***. ❤️
+<p align="center">
+  <i>...for your</i> <b><i>time and contribution</i></b>. ❤️
+</p>
 
   <!--- References ============================================================================ -->
 
