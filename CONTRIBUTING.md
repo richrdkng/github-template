@@ -6,9 +6,7 @@
   <b>Thank you for considering contributing to this project!</b>
 </p>
 
-<br/>
-
-Before you doing so, **please read the following simple steps** on how to contribute. This will **make life easier and help to avoid wasting time** on things, which are not requested. ✔️
+Before you doing so, **please read the following simple steps** on how to contribute. This will **make life easier and help to avoid wasting time** on things, which are not requested. ⏳
 
 <br/>
 
@@ -28,7 +26,7 @@ Check out **in detail** the:
 
  - **`*.js`** / **`*.mjs`** files for **coding style** and **commenting style**, and get familiar with:
  
-   - [![Code Style][badge-code]][url-code]
+    - [![Code Style][badge-code]][url-code]
 
   - [**Issues**][url-issues] and [**Commits**][url-commits] for **commit styles**, the **release workflow**, and get familiar with:
   
@@ -97,7 +95,6 @@ Check out **in detail** the:
 
 Your **contribution will be reviewed** before accepted. ***You may get feedback*** about what should be changed/fixed in your contribution.
 
-<br/>
 <br/>
 <br/>
 
