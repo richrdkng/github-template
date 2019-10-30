@@ -1,4 +1,6 @@
-# 🍻 Contributing
+<h1 align="center">
+  🍻 Contributing
+</h1>
 
 **Thank you for considering contributing to this project!**
 
@@ -8,7 +10,7 @@ This will **make life easier and help to avoid wasting time** on things, which a
 
 ---
 
-## 1.: 📑	Get Familiar With The Project
+## 📑	Get Familiar With The Project
 
 Check out **in detail** the:
 
@@ -31,7 +33,7 @@ Check out **in detail** the:
     - [![Commit Style][badge-commit]][url-commit]    
     - [![Release Workflow][badge-release]][url-release]
  
-## 2.: 💡	Discuss The Change
+## 💡	Discuss The Change
 
  - **Search** open and closed issues **first before submitting a new one**. Existing issues often contain ***workarounds, resolutions, or progress updates***.
 
@@ -41,9 +43,17 @@ Check out **in detail** the:
 
  - **Wait for feedback before continuing** to the next steps. ***However, if the issue is clear*** *(a tiny bug, a build, or a doc typo, etc)* and ***the fix is simple***, you can ***continue and fix it***.
 
-## 3.: 🛠️ Fixing Issues
+## 🛠️ Fixing Issues
 
- - Fork the project and create a branch 
+ - **Fork** the project and **clone** your fork, then **configure the remote**:
+
+    ```
+    git remote add upstream https://github.com/richrdkng/github-template.git
+    ```
+
+ - **Create a branch for your change** using commitizen-style naming convention
+
+ - X
 
  - Fork the project and **create a branch with your change** using the commitizen naming style: 
  based on semantic release **some-awesome-feature** or **some-issue-fix**.
@@ -66,18 +76,20 @@ Check out **in detail** the:
 
  - Wait for [**Travis CI**][url-ci] to run all tests **without errors** and give you a [![CI][badge-ci]][url-ci] badge **on your own branch**. ***If Travis CI errors out, fix the issues, then commit and push again until all tests run without errors.***
 
-## 4.: 🏁 Create A Pull Request
+## 🏁 Create A Pull Request
 
  - Open a pull request and **reference the initial issue** [**in the pull request message**][url-pull-req-help] 
    *(e.g.: fixes #42)*. Write a **good description and title**, so everybody will know what is fixed/improved.
 
  - **If it makes sense**, add screenshots, gifs, etc., so it will be easier to see what is going on.
 
-## 5.: 👍 Wait For Feedback
+## 👍 Wait For Feedback
 
 Your **contribution will be reviewed** before accepted. ***You may get feedback*** about what should be changed/fixed in your contribution.
 
----
+<br/>
+<br/>
+<br/>
 
 <h1 align="center">
   💕 Thank You!
