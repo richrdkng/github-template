@@ -8,9 +8,7 @@
 
 <br/>
 
-Before you doing so, **please read the following simple steps** on how to contribute.
-
-This will **make life easier and help to avoid wasting time** on things, which are not requested.
+Before you doing so, **please read the following simple steps** on how to contribute. This will **make life easier and help to avoid wasting time** on things, which are not requested.
 
 <br/>
 
@@ -36,7 +34,9 @@ Check out **in detail** the:
   
     - [![Commit Style][badge-commit]][url-commit]    
     - [![Release Workflow][badge-release]][url-release]
- 
+
+<br/>
+
 ## 💡	Discuss The Change
 
  - **Search** open and closed issues **first before submitting a new one**. Existing issues often contain ***workarounds, resolutions, or progress updates***.
@@ -46,6 +46,8 @@ Check out **in detail** the:
  - **Follow the guide** of the issue type you chose and **describe your contribution in detail** and what change would you like to make.
 
  - **Wait for feedback before continuing** to the next steps. ***However, if the issue is clear*** *(a tiny bug, a build, or a doc typo, etc)* and ***the fix is simple***, you can ***continue and fix it***.
+
+<br/>
 
 ## 🛠️ Fixing Issues
 
@@ -80,12 +82,16 @@ Check out **in detail** the:
 
  - Wait for [**Travis CI**][url-ci] to run all tests **without errors** and give you a [![CI][badge-ci]][url-ci] badge **on your own branch**. ***If Travis CI errors out, fix the issues, then commit and push again until all tests run without errors.***
 
+<br/>
+
 ## 🏁 Create A Pull Request
 
  - Open a pull request and **reference the initial issue** [**in the pull request message**][url-pull-req-help] 
    *(e.g.: fixes #42)*. Write a **good description and title**, so everybody will know what is fixed/improved.
 
  - **If it makes sense**, add screenshots, gifs, etc., so it will be easier to see what is going on.
+
+<br/>
 
 ## 👍 Wait For Feedback
 
