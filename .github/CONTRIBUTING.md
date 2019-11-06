@@ -6,6 +6,8 @@
   <b>Thank you for considering contributing to this project!</b>
 </p>
 
+<br/>
+
 Before you doing so, **please read the following simple steps** on how to contribute. This will **make life easier and help to avoid wasting time** on things, which are not requested. ⏳
 
 <br/>
@@ -49,24 +51,98 @@ Check out **in detail** the:
 
 ## 🛠️ Fixing Issues
 
- - **Fork** the project and **clone** your fork, then **configure the remote**:
+ - [**Fork**][url-help-fork] **the project**, then:
+ 
+   - **Clone your own** fork:
 
-    ```
-    git remote add upstream https://github.com/richrdkng/github-template.git
-    ```
+     ```bash
+     git clone https://github.com/<your-username>/github-template.git
+     ```
 
- - **Create a branch for your change** using commitizen-style naming convention
+   - Navigate into the project's directory, **configure the remote**, then **install the dependencies**:
 
- - X
+     ```bash
+     git remote add upstream https://github.com/richrdkng/github-template.git
+     npm install
+     ```     
 
- - Fork the project and **create a branch with your change** using the commitizen naming style: 
- based on semantic release **some-awesome-feature** or **some-issue-fix**.
+   - If you cloned a while ago, **get the latest changes** from upstream, then **update the dependencies**:
 
- - Commit your changes in that branch. Make sure you follow [![StandardJS][badge-code]][url-code] and the **tests** and the **precommit hook** ran without errors:
-   
-    ```
-    npm run check
-    ```
+     ```bash
+     git checkout master && git pull upstream master
+     rm -rf node_modules && npm install
+     ``` 
+ 
+ - **Create a new branch** for your change using [**commitizen-style**][url-commit-style] naming convention **in `dash-case`**:
+
+   - Use **this general template** for your branch names, notice `<scope>` is optional ***(omit ONLY, when you're working on a larger, or multifaceted change with several scopes)***:
+
+     ```bash
+     git checkout -b <type>-<scope?>-<subject>
+     ```
+
+   - General examples:
+
+     ```bash
+     # bugfix:
+     git checkout -b fix-scope-short-imperative-tense-title
+
+     # feature:
+     git checkout -b feat-scope-short-imperative-tense-title
+
+     # feature without scope (omitted):
+     git checkout -b feat-short-imperative-tense-title
+
+     # doc change:
+     git checkout -b docs-scope-short-imperative-tense-title
+     ```
+
+   - Specific examples:
+
+     ```bash
+     # bugfix:
+     git checkout -b fix-homepage-fix-hero-typos     
+
+     # feature:
+     git checkout -b feat-backend-add-image-resizing
+
+     # feature without scope (omitted):
+     git checkout -b feat-add-initial-image-upload
+
+     # test:
+     git checkout -b test-validation-add-middle-name-tests
+     
+     # test without scope (omitted):
+     git checkout -b test-add-initial-form-tests
+     ```
+ 
+ - **Commit your changes** in that branch **in logical chunks**:
+ 
+   - Please adhere to these git commit message guidelines or your code is unlikely be merged into the main project. Use Git's interactive rebase feature to tidy up your commits before making them public.
+
+   - For **intermediate/small changes** ***(when you're not done yet with the particular fix/feature/etc, but you need to commit some changes)***, adhere to commitizen-style type-subject-body guidelines:  
+
+      ```
+      add initial dirs and files
+
+      Add an initial .gitattributes file with initial, default content.
+      Also add lib/ and src/ dirs with .gitkeep files.
+      ```
+
+   - For the **main change** ***(when you're done with your fix/feature/etc change)***:
+
+   - Commit your changes in that branch. Make sure you follow [![StandardJS][badge-code]][url-code] and the **tests** and the **precommit hook** ran without errors:
+     
+      ```bash
+      npm run check
+      ```
+   - Commit using commitizen.
+
+   - Wait for [**Travis CI**][url-ci] to run all tests **without errors** and give you a [![CI][badge-ci]][url-ci] badge **on your own branch**. ***If Travis CI errors out, fix the issues, then commit and push again until all tests run without errors.***
+
+ - **Ensure consistency and quality** throughout all changes:
+
+   - x
 
  - In **`package.json`**, add yourself to the [**array of contributors**][url-npm-contrib-doc] *(create it if it doesn't exist)*:
  
@@ -76,13 +152,21 @@ Check out **in detail** the:
     ],  
     ```
  
- - Commit using commitizen.
+ - **Merge** ***(or rebase)*** **the upstream branch** into your branch locally:
 
- - Wait for [**Travis CI**][url-ci] to run all tests **without errors** and give you a [![CI][badge-ci]][url-ci] badge **on your own branch**. ***If Travis CI errors out, fix the issues, then commit and push again until all tests run without errors.***
+    ```bash
+    git pull [--rebase] upstream master
+    ```
+
+ - **Push your branch** up to **your fork**:
+
+    ```bash
+    git push origin <your-branch-name>
+    ```
 
 <br/>
 
-## 🏁 Create A Pull Request
+## 🏁 Submit A Pull Request
 
  - Open a pull request and **reference the initial issue** [**in the pull request message**][url-pull-req-help] 
    *(e.g.: fixes #42)*. Write a **good description and title**, so everybody will know what is fixed/improved.
@@ -115,13 +199,17 @@ Your **contribution will be reviewed** before accepted. ***You may get feedback*
   [badge-ci]:      https://img.shields.io/badge/build-passing-brightgreen
 
   <!--- URLs -->
-  [url-commits]:   https://github.com/richrdkng/github-template/commits
-  [url-issues]:    https://github.com/richrdkng/github-template/issues
-  [url-new-issue]: https://github.com/richrdkng/github-template/issues/new/choose
+  [url-commits]:      https://github.com/richrdkng/github-template/commits
+  [url-issues]:       https://github.com/richrdkng/github-template/issues
+  [url-new-issue]:    https://github.com/richrdkng/github-template/issues/new/choose
+  [url-commit-style]: https://github.com/semantic-release/semantic-release/blob/master/CONTRIBUTING.md#commit-message-guidelines
+  
   [url-code]:      https://standardjs.com
   [url-commit]:    https://commitizen.github.io/cz-cli
   [url-release]:   https://semantic-release.gitbook.io/semantic-release
   [url-ci]:        https://travis-ci.org/richrdkng/github-template
+
+  [url-help-fork]: https://help.github.com/en/github/getting-started-with-github/fork-a-repo
 
   [url-bugs]:            https://github.com/richrdkng/github-template/issues
   [url-standard]:        https://standardjs.com
