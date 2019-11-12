@@ -118,28 +118,11 @@ Check out **in detail** the:
  
  - **Commit your changes** in that branch **in logical chunks**:
  
-   - Make sure to adhere to [**commitizen**][url-commit-style] conventions, **otherwise your code is unlikely to be merged into the main project**. For your own convenience, you can run this NPM script for your commit messages:
+   - Make sure to adhere to [**commitizen**][url-commit-style] conventions, **otherwise your code is unlikely to be merged into the main project**. For your own convenience, ***optionally*** you can run this NPM script to help with your commit messages:
    
      ```bash
      npm run commit
      ```
-
-   - For **intermediate/small changes** ***(when you're not done yet with the particular fix/feature/test/etc., but you need to commit some changes)*** use the shorter `subject-body` format:
-
-     ```
-     <subject>
-     <BLANK LINE>
-     <body>
-     ```
-
-     - Example:
-
-       ```
-       add initial dirs and files
-  
-       Add an initial .gitattributes file with initial, default content.
-       Also add lib/ and src/ dirs with .gitkeep files.
-       ```
 
    - For the **main change** ***(when you're done with your fix/feature/test/etc. change)*** use the proper [**commit message format**][url-commit-format]:
 
@@ -162,8 +145,33 @@ Check out **in detail** the:
        for first, middle, and last name. Also add a boolean toggle for middle name validaton.
  
        Closes #42
-       ```  
-      
+       ```
+
+   - For **intermediate/small changes** ***(when you're not done yet with the particular fix/feature/test/etc., but you need to commit some changes)*** use the shorter, simpler `subject-body` format:
+
+     ```
+     <subject>
+     <BLANK LINE>
+     <body>
+     ```
+
+     - Example:
+
+       ```
+       add initial dirs and files
+  
+       Add an initial .gitattributes file with initial, default content.
+       Also add lib/ and src/ dirs with .gitkeep files.
+       ```
+
+   - **Add yourself** to the [**array of contributors**][url-npm-contrib-doc] *(create it if it doesn't exist)* in **`package.json`**:
+   
+     ```json   
+     "contributors": [
+       "Your Name <your@email.com> (www.yoursite.com)"
+     ],  
+     ```
+
  - **Ensure consistency and quality** throughout all changes:
 
    - Follow and adhere to [**StandardJS**][url-code] coding style and make sure the **tests run without errors** by running:
@@ -180,14 +188,6 @@ Check out **in detail** the:
    
  - **Then finally**:
 
-   - In **`package.json`**, add yourself to the [**array of contributors**][url-npm-contrib-doc] *(create it if it doesn't exist)*:
-   
-     ```json   
-     "contributors": [
-       "Your Name <your@email.com> (www.yoursite.com)"
-     ],  
-     ``` 
- 
    - Locally **merge** ***(or rebase)*** **the upstream branch** into your branch:
 
      ```bash
@@ -211,9 +211,9 @@ Check out **in detail** the:
  
  - Wait for [**Travis CI**][url-ci] to run all tests **without errors** and give you a [![CI][badge-ci]][url-ci] badge **on your own branch**. ***If Travis CI errors out, fix the issues, then commit and push again until all tests run without errors.***
 
- - For ambitious tasks, open a Pull Request as soon as possible with the [WIP] prefix in the title, in order to get feedback and help from the community.
+ - For ambitious changes, open a Pull Request as soon as possible with the `[WIP]` prefix in the title, in order to get feedback and help from the community.
 
- - Allow semantic-release maintainers to make changes to your Pull Request branch. This way, we can rebase it and make some minor changes if necessary. All changes we make will be done in new commit and we'll ask for your approval before merging them.
+ - Allow the project's maintainers to make changes to your Pull Request branch. This way, we can rebase it and make some minor changes if necessary. All changes we make will be done in new commit and we'll ask for your approval before merging them.
 
  - IMPORTANT: By submitting a patch, you agree to allow the project owners to license your work under the terms of the MIT License (if it includes code changes) and under the terms of the Creative Commons Attribution 3.0 Unported License (if it includes documentation changes).
 
