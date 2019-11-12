@@ -132,14 +132,14 @@ Check out **in detail** the:
      <body>
      ```
 
-     *Example:*
+     - Example:
 
-     ```
-     add initial dirs and files
-
-     Add an initial .gitattributes file with initial, default content.
-     Also add lib/ and src/ dirs with .gitkeep files.
-     ```
+       ```
+       add initial dirs and files
+  
+       Add an initial .gitattributes file with initial, default content.
+       Also add lib/ and src/ dirs with .gitkeep files.
+       ```
 
    - For the **main change** ***(when you're done with your fix/feature/test/etc. change)*** use the proper [**commit message format**][url-commit-format]:
 
@@ -153,16 +153,16 @@ Check out **in detail** the:
      <footer>
      ```
 
-     *Example:*
+     - Example:
 
-     ```
-     fix(validator): fix middle name validation
-
-     Fix the broken middle name validation, when choosing `detailed` name option
-     for first, middle, and last name. Also add a boolean toggle for middle name validaton.
-
-     Closes #42
-     ```  
+       ```
+       fix(validator): fix middle name validation
+ 
+       Fix the broken middle name validation, when choosing `detailed` name option
+       for first, middle, and last name. Also add a boolean toggle for middle name validaton.
+ 
+       Closes #42
+       ```  
       
  - **Ensure consistency and quality** throughout all changes:
 
