@@ -26,15 +26,10 @@ Check out **in detail** the:
 
  - **`test`** directory for **tests**, the **test style**, and the **test process**
 
- - **`*.js`** / **`*.mjs`** files for **coding style** and **commenting style**, and get familiar with:
- 
-    - [![Code Style][badge-code]][url-code]
+ - **`*.js`** / **`*.mjs`** files for **coding style** and **commenting style**, and get familiar with [**StandardJS**][url-code]
 
-  - [**Issues**][url-issues] and [**Commits**][url-commits] for **commit styles**, the **release workflow**, and get familiar with:
+  - [**Issues**][url-issues] and [**Commits**][url-commits] for the [**release workflow**][url-release] and get familiar with [**commitizen commit message conventions**][url-commit-style]
   
-    - [![Commit Style][badge-commit]][url-commit]    
-    - [![Release Workflow][badge-release]][url-release]
-
 <br/>
 
 ## 💡	Discuss The Change
@@ -124,7 +119,7 @@ Check out **in detail** the:
      npm run commit
      ```
 
-   - For the **main change** ***(when you're done with your fix/feature/test/etc. change)*** use the proper [**commit message format**][url-commit-format]:
+   - For the **main change** ***(when you're done with your fix/feature/test/etc.)*** use the proper [**commit message format**][url-commit-format]:
 
      ```
      <type>(<scope>): <subject>
@@ -204,18 +199,20 @@ Check out **in detail** the:
 
 ## 🏁 Submit A Pull Request
 
- - Open a pull request and **reference the initial issue** [**in the pull request message**][url-pull-req-help] 
-   *(e.g.: fixes #42)*. Write a **good description and title**, so everybody will know what is fixed/improved.
+ - Open a [**pull request**][url-pull-req] and **reference the initial issue** [**in the pull request message**][url-pull-req-help] *(e.g.: fixes #42)*. Write a **good description and title**, so everybody will know what is fixed/improved.
 
+ - For ambitious changes, open a Pull Request as soon as possible with the `[WIP]` prefix in the title, in order to get feedback and help from the community. 
+ 
  - **If it makes sense**, add screenshots, gifs, etc., so it will be easier to see what is going on.
  
- - Wait for [**Travis CI**][url-ci] to run all tests **without errors** and give you a [![CI][badge-ci]][url-ci] badge **on your own branch**. ***If Travis CI errors out, fix the issues, then commit and push again until all tests run without errors.***
+ - [**Allow the project owners to make changes**][url-pull-req-edit] to **your pull request branch**, so we can rebase it and make some minor changes if necessary *(all changes we make will be done in new commit and we'll ask for your approval before merging them)*.
 
- - For ambitious changes, open a Pull Request as soon as possible with the `[WIP]` prefix in the title, in order to get feedback and help from the community.
+ - Make sure [**Travis CI**][url-ci] runs all tests **without errors** on your **own branch** (*if Travis CI errors out on your own branch, fix the issues, then commit and push again until all tests run without errors)*.
 
- - Allow the project's maintainers to make changes to your Pull Request branch. This way, we can rebase it and make some minor changes if necessary. All changes we make will be done in new commit and we'll ask for your approval before merging them.
-
- - IMPORTANT: By submitting a patch, you agree to allow the project owners to license your work under the terms of the MIT License (if it includes code changes) and under the terms of the Creative Commons Attribution 3.0 Unported License (if it includes documentation changes).
+ - **IMPORTANT**: by submitting a change, you **agree to allow the project owners** to license your work under the terms of:
+ 
+   - [**ISC License**][url-license-isc] ***(if it includes code changes)***
+   - [**CCA 3.0 Unported License**][url-license-cca] ***(if it includes documentation changes)***
 
 <br/>
 
@@ -255,10 +252,15 @@ Your **contribution will be reviewed** before accepted. ***You may get feedback*
   [url-release]:   https://semantic-release.gitbook.io/semantic-release
   [url-ci]:        https://travis-ci.org/richrdkng/github-template
 
+  [url-license-isc]: https://github.com/richrdkng/github-template/blob/master/LICENSE.md
+  [url-license-cca]: https://creativecommons.org/licenses/by/3.0
+
   [url-help-fork]: https://help.github.com/en/github/getting-started-with-github/fork-a-repo
 
   [url-bugs]:            https://github.com/richrdkng/github-template/issues
   [url-standard]:        https://standardjs.com
   [url-npm-contrib-doc]: https://docs.npmjs.com/files/package.json#people-fields-author-contributors
+  [url-pull-req]:   https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request#creating-the-pull-request
   [url-pull-req-help]:   https://blog.github.com/2013-05-14-closing-issues-via-pull-requests
+  [url-pull-req-edit]:   https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/allowing-changes-to-a-pull-request-branch-created-from-a-fork
   [url-dev-doc]:         https://github.com/richrdkng/github-template/blob/master/github/DEVELOPMENT.md
