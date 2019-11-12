@@ -53,7 +53,7 @@ Check out **in detail** the:
 
  - [**Fork**][url-help-fork] **the project**, then:
  
-   - **Clone your own** fork:
+   - **Clone your own fork**:
 
      ```bash
      git clone https://github.com/<your-username>/github-template.git
@@ -73,7 +73,7 @@ Check out **in detail** the:
      rm -rf node_modules && npm install
      ``` 
  
- - **Create a new branch** for your change using [**commitizen-style**][url-commit-style] naming convention **in `dash-case`**:
+ - **Create a new branch** for your change using [**commitizen-style**][url-commit-style] naming convention **in dash-case**:
 
    - Use **this general template** for your branch names, notice `<scope>` is optional ***(omit ONLY, when you're working on a larger, or multifaceted change with several scopes)***:
 
@@ -118,51 +118,87 @@ Check out **in detail** the:
  
  - **Commit your changes** in that branch **in logical chunks**:
  
-   - Please adhere to these git commit message guidelines or your code is unlikely be merged into the main project. Use Git's interactive rebase feature to tidy up your commits before making them public.
+   - Make sure to adhere to [**commitizen**][url-commit-style] conventions, **otherwise your code is unlikely to be merged into the main project**. For your own convenience, you can run this NPM script for your commit messages:
+   
+     ```bash
+     npm run commit
+     ```
 
-   - For **intermediate/small changes** ***(when you're not done yet with the particular fix/feature/etc, but you need to commit some changes)***, adhere to commitizen-style type-subject-body guidelines:  
+   - For **intermediate/small changes** ***(when you're not done yet with the particular fix/feature/test/etc., but you need to commit some changes)*** use the shorter `subject-body` format:
 
-      ```
-      add initial dirs and files
+     ```
+     <subject>
+     <BLANK LINE>
+     <body>
+     ```
 
-      Add an initial .gitattributes file with initial, default content.
-      Also add lib/ and src/ dirs with .gitkeep files.
-      ```
+     *Example:*
 
-   - For the **main change** ***(when you're done with your fix/feature/etc change)***:
+     ```
+     add initial dirs and files
 
-   - Commit your changes in that branch. Make sure you follow [![StandardJS][badge-code]][url-code] and the **tests** and the **precommit hook** ran without errors:
-     
-      ```bash
-      npm run check
-      ```
-   - Commit using commitizen.
+     Add an initial .gitattributes file with initial, default content.
+     Also add lib/ and src/ dirs with .gitkeep files.
+     ```
 
-   - Wait for [**Travis CI**][url-ci] to run all tests **without errors** and give you a [![CI][badge-ci]][url-ci] badge **on your own branch**. ***If Travis CI errors out, fix the issues, then commit and push again until all tests run without errors.***
+   - For the **main change** ***(when you're done with your fix/feature/test/etc. change)*** use the proper [**commit message format**][url-commit-format]:
 
+     ```
+     <type>(<scope>): <subject>
+     <BLANK LINE>
+     <body>
+     <BLANK LINE>
+     <breaking change>
+     <BLANK LINE>
+     <footer>
+     ```
+
+     *Example:*
+
+     ```
+     fix(validator): fix middle name validation
+
+     Fix the broken middle name validation, when choosing `detailed` name option
+     for first, middle, and last name. Also add a boolean toggle for middle name validaton.
+
+     Closes #42
+     ```  
+      
  - **Ensure consistency and quality** throughout all changes:
 
-   - x
+   - Follow and adhere to [**StandardJS**][url-code] coding style and make sure the **tests run without errors** by running:
 
- - In **`package.json`**, add yourself to the [**array of contributors**][url-npm-contrib-doc] *(create it if it doesn't exist)*:
+     ```bash
+     npm run check
+     ```
+
+   - Use Git's [**interactive rebase**][url-rebase] feature to tidy up your commits **before making them public**:
+
+     ```bash
+     git rebase --interactive [base]
+     ```
+   
+ - **Then finally**:
+
+   - In **`package.json`**, add yourself to the [**array of contributors**][url-npm-contrib-doc] *(create it if it doesn't exist)*:
+   
+     ```json   
+     "contributors": [
+       "Your Name <your@email.com> (www.yoursite.com)"
+     ],  
+     ``` 
  
-    ```json   
-    "contributors": [
-      "Your Name <youremail@email.com> (www.yourwebsite.com)"
-    ],  
-    ```
- 
- - **Merge** ***(or rebase)*** **the upstream branch** into your branch locally:
+   - Locally **merge** ***(or rebase)*** **the upstream branch** into your branch:
 
-    ```bash
-    git pull [--rebase] upstream master
-    ```
+     ```bash
+     git pull [--rebase] upstream master
+     ```
 
- - **Push your branch** up to **your fork**:
+   - **Push your branch** up to **your fork**:
 
-    ```bash
-    git push origin <your-branch-name>
-    ```
+     ```bash
+     git push origin <your-branch-name>
+     ```
 
 <br/>
 
@@ -172,6 +208,14 @@ Check out **in detail** the:
    *(e.g.: fixes #42)*. Write a **good description and title**, so everybody will know what is fixed/improved.
 
  - **If it makes sense**, add screenshots, gifs, etc., so it will be easier to see what is going on.
+ 
+ - Wait for [**Travis CI**][url-ci] to run all tests **without errors** and give you a [![CI][badge-ci]][url-ci] badge **on your own branch**. ***If Travis CI errors out, fix the issues, then commit and push again until all tests run without errors.***
+
+ - For ambitious tasks, open a Pull Request as soon as possible with the [WIP] prefix in the title, in order to get feedback and help from the community.
+
+ - Allow semantic-release maintainers to make changes to your Pull Request branch. This way, we can rebase it and make some minor changes if necessary. All changes we make will be done in new commit and we'll ask for your approval before merging them.
+
+ - IMPORTANT: By submitting a patch, you agree to allow the project owners to license your work under the terms of the MIT License (if it includes code changes) and under the terms of the Creative Commons Attribution 3.0 Unported License (if it includes documentation changes).
 
 <br/>
 
@@ -199,10 +243,12 @@ Your **contribution will be reviewed** before accepted. ***You may get feedback*
   [badge-ci]:      https://img.shields.io/badge/build-passing-brightgreen
 
   <!--- URLs -->
-  [url-commits]:      https://github.com/richrdkng/github-template/commits
-  [url-issues]:       https://github.com/richrdkng/github-template/issues
-  [url-new-issue]:    https://github.com/richrdkng/github-template/issues/new/choose
-  [url-commit-style]: https://github.com/semantic-release/semantic-release/blob/master/CONTRIBUTING.md#commit-message-guidelines
+  [url-commits]:       https://github.com/richrdkng/github-template/commits
+  [url-issues]:        https://github.com/richrdkng/github-template/issues
+  [url-new-issue]:     https://github.com/richrdkng/github-template/issues/new/choose
+  [url-commit-style]:  https://github.com/semantic-release/semantic-release/blob/master/CONTRIBUTING.md#commit-message-guidelines
+  [url-commit-format]: https://github.com/semantic-release/semantic-release/blob/master/CONTRIBUTING.md#commit-message-format  
+  [url-rebase]:        https://help.github.com/en/github/using-git/about-git-rebase
   
   [url-code]:      https://standardjs.com
   [url-commit]:    https://commitizen.github.io/cz-cli
